@@ -28,14 +28,28 @@
     <title>Oscar Tenezaca blog</title>
 </head>
 
+<div class="allMessages">
+        
+</div>
 <body>
-    <form>
-        Username:<br>
-        <input type="text" name="Username"><br>
-        Message:<br>
-        <input type="text" name="Message"><br><br>
-        <input type="submit">
-    </form>
+    <div class="userContainer">
+        <form>
+            <div class="inputContainer">
+                <div class="singleInput">
+                    <label for="username">Name:</label>
+                    <input id="username" type="text">
+                </div>
+                <div class="singleInput">
+                    <label for="message">Post:</label>
+                    <textarea id="post" name="message" rows="10" cols="30"></textarea>
+                    
+                </div>
+            </div>
+            <button id="submitButton">Submit</button>
+            
+        </form>
+    </div>
+    
 </body>
 
 </html>
